@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "PYUSD Analytics Dashboard Backend",
+  "dependencies": {
+    "@google-cloud/bigquery": "^7.9.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.8.0",
+    "express": "^4.18.3",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^7.2.0",
+    "joi": "^17.13.3",
+    "mongoose": "^8.13.2",
+    "pg": "^8.14.1",
+    "redis": "^4.7.0",
+    "twitter-api-v2": "^1.22.0",
+    "web3": "^4.16.0",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
